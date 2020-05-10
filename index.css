@@ -1,0 +1,62 @@
+/* Add CSS for your webpage here
+
+CSS requirements:
+* a tag selector
+* a class selector
+* an id selector
+* use the following attributes: height, width, border, color, background-color, font-size
+* add margin and padding to two different elements  
+
+Stretch Goal: Use online resources to learn a little about the CSS properties of 'display' and 'position'. Incorporate them into your page.
+*/
+
+#background-img{
+    background: url("https://www.visittheusa.com/sites/default/files/styles/hero_m_1300x700/public/images/hero_media_image/2017-05/23b0b0b9caaa07ee409b693da9bf9003.jpeg?itok=QUmOkiy_");
+    padding: 200px;
+    background-position: center;
+  }
+  
+  .textcolor {
+    color: purple;
+  }
+  
+  h1{
+    color: whitesmoke;
+    text-align: center;
+    margin: auto;
+    padding: 50px;
+    display: block;
+  }
+  
+  .bio{
+    color: white;
+    text-align: center;
+  }
+  
+  span.bio{
+    display: block;
+    padding: 5px;
+  }
+  
+  #me{
+    text-decoration: underline;
+    color: white;
+    text-align: center;
+  
+  }
+  
+  .contact{
+    text-align: center;
+    color: white;
+  }
+  
+  .form {
+      display: block;
+      width: 40%;
+      height: 24px;
+      padding: 100 px;
+      font-size: 16px;
+      color: gray;
+      background-color: white;
+      margin: auto;
+  }
